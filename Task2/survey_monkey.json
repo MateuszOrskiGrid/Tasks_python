@@ -1,0 +1,51 @@
+{
+    "headings": [
+        {
+            "heading": "Which monkey would you rather have as a pet?",
+            "description": "",
+            "image": {
+                "url": "string"
+            },
+            "random_assignment": {
+                "percent": 0,
+                "position": 0,
+                "variable_name": "string"
+            }
+        }
+    ],
+    "position": 0,
+    "family": "single_choice",
+    "subtype": "vertical",
+    "sorting": {
+        "type": "string",
+        "ignore_last": true
+    },
+    "required": false,
+    "validation": {
+        "type": "string",
+        "text": "string",
+        "min": "string",
+        "max": "string",
+        "sum": 0,
+        "sum_text": "string"
+    },
+    "forced_ranking": false,
+    "quiz_options": {
+        "scoring_enabled": true,
+        "feedback": {},
+        "feedback.correct_text": "string",
+        "feedback.incorrect_text": "string",
+        "feedback.partial_text": "string"
+    },
+    "answers": {
+        "choices": [
+            {
+                "text": "Capuchin"
+            },
+            {
+                "text": "Mandrill"
+            }
+        ]
+    },
+    "display_options": {}
+}

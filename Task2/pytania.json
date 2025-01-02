@@ -1,0 +1,58 @@
+{
+  "title": "Which monkey would you rather have as a pet?",
+  "pages": [
+      {
+          "title": "Choose a Monkey",
+          "description": "Please select the monkey you would prefer as a pet.",
+          "questions": [
+              {
+                  "headings": [
+                      {
+                          "heading": "Which monkey would you rather have as a pet?"
+                      }
+                  ],
+                  "family": "single_choice",
+                  "subtype": "vertical",
+                  "answers": {
+                      "choices": [
+                          { "text": "Capuchin" },
+                          { "text": "Mandrill" }
+                      ]
+                  }
+              },
+              {
+                  "headings": [
+                      {
+                          "heading": "What is your favorite habitat for monkeys?"
+                      }
+                  ],
+                  "family": "single_choice",
+                  "subtype": "vertical",
+                  "answers": {
+                      "choices": [
+                          { "text": "Rainforest" },
+                          { "text": "Savannah" },
+                          { "text": "Mountains" }
+                      ]
+                  }
+              },
+              {
+                  "headings": [
+                      {
+                          "heading": "How much time can you dedicate to caring for a pet monkey?"
+                      }
+                  ],
+                  "family": "single_choice",
+                  "subtype": "vertical",
+                  "answers": {
+                      "choices": [
+                          { "text": "Less than 1 hour a day" },
+                          { "text": "1-3 hours a day" },
+                          { "text": "More than 3 hours a day" }
+                      ]
+                  }
+              }
+          ]
+      }
+  ]
+}
