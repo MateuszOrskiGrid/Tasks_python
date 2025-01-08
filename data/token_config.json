@@ -1,7 +1,0 @@
-{
-    "token_hash": "fb944b1b601867ce63d6aa8a81c334654f1b4e03e99749bbd68f6f491cff4779",
-    "expiry": "2025-01-09T22:33:02.856507",
-    "max_failed_attempts": 5,
-    "failed_attempts": 0,
-    "lockout_until": null
-}
