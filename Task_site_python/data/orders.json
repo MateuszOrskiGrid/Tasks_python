@@ -1,0 +1,41 @@
+{
+    "94fd4aa9-acea-42ac-8dd5-6d8b28ab8fbf": {
+        "user": "Guest",
+        "items": [
+            {
+                "pizza_id": "1",
+                "quantity": 1
+            }
+        ],
+        "status": "pending",
+        "address": "probna_ulica",
+        "order_time": "2025-01-08T17:00:54.257515",
+        "delivery_time": "2025-01-08T17:30:54.257515"
+    },
+    "3078ea28-59d9-4fb6-a5b3-9c81dc073edb": {
+        "user": "Guest",
+        "items": [
+            {
+                "pizza_id": "1",
+                "quantity": 1
+            }
+        ],
+        "status": "delivered",
+        "address": "proba_jutrzenki",
+        "order_time": "2025-01-08T17:47:10.956980",
+        "delivery_time": "2025-01-08T18:17:10.956980"
+    },
+    "e9ad30c0-6e8f-4431-bc22-6cae6150dd2c": {
+        "user": "mateusz",
+        "items": [
+            {
+                "pizza_id": "2",
+                "quantity": 2
+            }
+        ],
+        "status": "pending",
+        "address": "jutrzenki",
+        "order_time": "2025-01-08T23:28:08.429757",
+        "delivery_time": "2025-01-08T23:58:08.429757"
+    }
+}

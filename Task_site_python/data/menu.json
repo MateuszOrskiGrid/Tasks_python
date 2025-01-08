@@ -1,0 +1,14 @@
+{
+    "1": {
+        "name": "Margherita",
+        "price": 8.99
+    },
+    "2": {
+        "name": "Pepperoni",
+        "price": 9.99
+    },
+    "3": {
+        "name": "Veggie",
+        "price": 10.99
+    }
+}
