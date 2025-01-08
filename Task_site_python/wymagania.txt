@@ -1,0 +1,61 @@
+Required
+
+required done !!!!!!!!
+
+Server Side:
+1.Set Up Server:
+    -Create a server to handle HTTP requests.
+2.Define Data Structures:
+    -Define data structures for pizzas, orders, users, and admin tokens.
+3.Customer API Endpoints (Required):
+    -Implement endpoints for customers:List the menu (GET /menu)
+    -Create order (POST /order)
+    -Check order status (GET /order/{order_id})
+    -Cancel order if status is not ready_to_be_delivered (DELETE /order/{order_id})
+4.Admin Authentication (Required):
+    -Implement token-based admin authentication:Check if the provided token matches the hardcoded admin token.
+    -Allow access to admin methods only if the token is valid.
+
+
+Client Side (CLI):
+
+1.Executable CLI:
+    -Create an executable CLI file that accepts command-line arguments.
+2.Customer CLI Commands (Required):
+    -Implement CLI commands for customers:List the menu
+    -Create order
+    -Check order status
+    -Cancel order (if not ready_to_be_delivered)
+3.Admin Token Verification (Required):
+    -If an admin token is provided for an admin action, send it to the backend for verification.
+    -Return 401 Unauthorized if the token is not approved.
+
+########################################################################################################################
+
+Optional
+
+jedynki zrobione
+
+Server Side:
+1.Admin API Endpoints (Optional):
+    -Implement endpoints for admins:Add pizza to the menu (POST /menu)
+    -Delete pizza from the menu (DELETE /menu/{pizza_id})
+    -Cancel order regardless of status (DELETE /order/{order_id})
+2.Token Storage (Optional):
+    -Store the admin token securely on the server side.
+3.User Registration (Optional):
+    -Implement user registration functionality.
+    -Store user data securely.
+
+Client Side (CLI):
+
+1.Admin CLI Commands (Optional):
+    -Implement CLI commands for admins:Add pizza to the menu
+    -Delete pizza from the menu
+    -Cancel order (regardless of status)
+2.User Registration in CLI (Optional):
+    -Allow users to register through the CLI.
+    -Store registration data securely.
+3.Address Reuse (Optional):
+    -Allow users who have registered to make orders without passing their address, using the stored address from registration.
+
